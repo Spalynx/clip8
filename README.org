@@ -1,0 +1,37 @@
+* clip8
+Yet another Common Lisp chIP8 virtual machine.
+
+** What is this?
+In layman's (me) terms: Created in the 1970's CHIP-8 is a spec for a theoretical general purpose computers. Over the years hobbyists have written a decent amount of programs for it, with even a few expansions on the spec.
+
+CHIP-8 emulators are often mentioned as a great project for beginners to dip their toes into programming emulators.
+
+The emulator that you see before you is exactly that: A beginner emulation project. No frills, nothing fancy, it just plays pong.
+
+** Getting Started
+As for now, I've been running this in SBCL for debugging. I'll add instructions for building when the project nears completion.
+
+*** Dependencies
+**** SBCL (Probably most Common Lisp impls would work.)
+**** ASDF
+***** Alexandria
+***** LTK
+
+** What's left?
+
+*** DONE CHIP-8
+**** DONE OPCODES
+**** DONE BOOT/RESTART
+**** DONE Cycle/Timers/Helpers/Debug
+**** TODO STOP
+*** TODO GUI
+*** TODO Keybindings
+*** TODO Sound
+
+** Thoughts
+This project was built with the intent of learning and getting comfortable with general CL programming. ASDF, quicklisp, SBCL, CL, and (any usable) lisp gui programming were the main focus areas for tinkering.
+
+Furthermore, here are some post-mortem ruminations on this project:
+- I'm such a lisp noob lol. Probably could reduce this to 1/3rd the line count.
+- Returning a function lambda for decode was an interesting choice. It allows me to run describe on it when debugging, and was kind of an interesting idea. In the end it was mostly bloat, but still fun.
+- Attempted to make this purely functional, but gave up pretty quickly. Maybe next time.
