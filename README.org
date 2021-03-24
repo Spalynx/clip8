@@ -12,20 +12,20 @@ The emulator that you see before you is exactly that: A beginner emulation proje
 As for now, I've been running this in SBCL for debugging. I'll add instructions for building when the project nears completion.
 
 *** Dependencies
-**** SBCL (Probably most Common Lisp impls would work.)
-**** ASDF
-***** Alexandria
-***** LTK
+ - SBCL (Probably most Common Lisp impls would work.)
+ - ASDF
+  - Alexandria
+  - LTK
 
 ** What's left?
-- [x] CHIP-8
+ - [x] CHIP-8
   - [x] OPCODES
   - [x] BOOT/RESTART
   - [x] Cycle/Timers/Helpers/Debug
   - [ ] STOP
-- [ ]  GUI
-- [ ] Keybindings
-- [ ] TODO Sound
+ - [ ]  GUI
+ - [ ] Keybindings
+ - [ ] TODO Sound
 
 ** Thoughts
 This project was built with the intent of learning and getting comfortable with general CL programming. ASDF, quicklisp, SBCL, CL, and (any usable) lisp gui programming were the main focus areas for tinkering.
