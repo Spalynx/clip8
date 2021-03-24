@@ -18,15 +18,14 @@ As for now, I've been running this in SBCL for debugging. I'll add instructions 
 ***** LTK
 
 ** What's left?
-
-*** DONE CHIP-8
-**** DONE OPCODES
-**** DONE BOOT/RESTART
-**** DONE Cycle/Timers/Helpers/Debug
-**** TODO STOP
-*** TODO GUI
-*** TODO Keybindings
-*** TODO Sound
+- [x] CHIP-8
+  - [x] OPCODES
+  - [x] BOOT/RESTART
+  - [x] Cycle/Timers/Helpers/Debug
+  - [ ] STOP
+- [ ]  GUI
+- [ ] Keybindings
+- [ ] TODO Sound
 
 ** Thoughts
 This project was built with the intent of learning and getting comfortable with general CL programming. ASDF, quicklisp, SBCL, CL, and (any usable) lisp gui programming were the main focus areas for tinkering.
